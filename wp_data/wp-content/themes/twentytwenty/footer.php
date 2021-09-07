@@ -18,7 +18,7 @@
 
 					<div class="footer-credits">
 
-						<p class="footer-copyright">&copy;
+						<p class="footer-copyright">Hello from new repo! 
 							<?php
 							echo date_i18n(
 								/* translators: Copyright date format, see https://www.php.net/manual/datetime.format.php */
