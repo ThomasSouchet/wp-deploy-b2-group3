@@ -2,7 +2,7 @@ image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
 
 deploy:
   script:
-    - aws deploy push --application-name b2-group3 --s3-location s3://wp-b2group3/wp.zip --source ./wp_data
+    - aws deploy push --application-name b2-group3 --s3-location s3://wp-b2group3/wp.zip --source ./
     - aws deploy create-deployment --application-name b2-group3 --deployment-group-name b2-g3-group --s3-location bucket=wp-b2group3,bundleType=zip,key=wp.zip
   only: 
    - main
