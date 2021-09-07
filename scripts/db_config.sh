@@ -7,9 +7,4 @@ sudo chown -R www-data: /srv/www
 
 sudo su -l www-data -s /bin/bash -c "wp config create --dbname='$db' --dbuser='$user' --dbpass='$password' --dbhost='$entrypoint' --force --path='/srv/www/wordpress'"
 
-# sudo su -l www-data -s /bin/bash -c "wp config set DB_NAME \"$db\" --path='/srv/www/wordpress'"
-# sudo su -l www-data -s /bin/bash -c "wp config set DB_USER \"$user\" --path='/srv/www/wordpress'"
-# sudo su -l www-data -s /bin/bash -c "wp config set DB_PASSWORD \"$password\" --path='/srv/www/wordpress'"
-# sudo su -l www-data -s /bin/bash -c "wp config set DB_HOST \"$entrypoint\" --path='/srv/www/wordpress'"
-
 sudo service apache2 reload
