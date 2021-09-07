@@ -1,0 +1,8 @@
+version: 0.0
+os: linux
+files:
+  - source: /wp_data
+    destination: /srv/www/wordpress
+hooks:
+  AfterInstall:
+    - location: /scripts/db_config.sh
