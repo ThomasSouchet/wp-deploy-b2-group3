@@ -16,11 +16,8 @@
 
 get_header(); ?>
 
-<?php if ( is_home() && ! is_front_page() && ! empty( single_post_title( '', false ) ) ) : ?>
-	<header class="page-header alignwide">
-		<h1 class="page-title"> Hello Arnaud</h1>
-	</header><!-- .page-header -->
-<?php endif; ?>
+<h1 class="page-title"> Hello Arnaud</h1>
+
 
 <?php
 if ( have_posts() ) {
