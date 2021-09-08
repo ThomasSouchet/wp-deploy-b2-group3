@@ -16,7 +16,10 @@
 
 get_header(); ?>
 
-<h1 class="page-title"> Hello Arnaud</h1>
+	<header class="page-header alignwide">
+		<h1 class="page-title"> Hello Arnaud</h1>
+	</header><!-- .page-header -->
+
 
 
 <?php
