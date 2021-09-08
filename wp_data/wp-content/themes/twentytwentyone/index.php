@@ -18,6 +18,7 @@ get_header(); ?>
 
 	<header class="page-header alignwide">
 		<h1 class="page-title"> Hello Arnaud</h1>
+		<h2> This is a test </h2>
 	</header><!-- .page-header -->
 
 
