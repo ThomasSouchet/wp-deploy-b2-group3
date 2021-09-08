@@ -6,9 +6,10 @@ La configuration de cette infrastructure `AWS` sera gérée par l'outil Terrafor
 
 #### Workflow de développement
 
-Cloner le repository en local.
-Faire un ```docker-compose up```.
-Travailler dans le dossier `wp_data` depuis une branche autre que `main`.
-Pousser vos changements sur `GitLab`.
-Demander une `merge review`.
-Lorsque vos changements seront approuvés par le mainteneur votre code sera automatiquement déployé en Production.
+- Cloner le repository en local.
+- Faire un ```docker-compose up```.
+- Travailler dans le dossier `wp_data` depuis une branche autre que `main`.
+- Pousser vos changements sur `GitLab`.
+- Demander une `merge review`.
+- Lorsque vos changements seront approuvés par le mainteneur votre code sera automatiquement déployé en Production.
+
