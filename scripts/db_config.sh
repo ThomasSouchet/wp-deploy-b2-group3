@@ -22,7 +22,7 @@ sudo su -l www-data -s /bin/bash -c "wp config set LOGGED_IN_KEY '$logged_in_key
 sudo su -l www-data -s /bin/bash -c "wp config set NONCE_KEY '$nonce_key' --path='/srv/www/wordpress'"
 sudo su -l www-data -s /bin/bash -c "wp config set AUTH_SALT '$auth_salt' --path='/srv/www/wordpress'"
 sudo su -l www-data -s /bin/bash -c "wp config set SECURE_AUTH_SALT '$secure_auth_salt' --path='/srv/www/wordpress'"
-sudo su -l www-data -s /bin/bash -c "wp config set LOGGED_IN_SALT'$logged_in_salt' --path='/srv/www/wordpress'"
+sudo su -l www-data -s /bin/bash -c "wp config set LOGGED_IN_SALT '$logged_in_salt' --path='/srv/www/wordpress'"
 sudo su -l www-data -s /bin/bash -c "wp config set NONCE_SALT '$nonce_salt' --path='/srv/www/wordpress'"
 
 sudo service apache2 restart
