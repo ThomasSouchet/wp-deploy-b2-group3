@@ -1,3 +1,5 @@
+#!/bin/bash -x
+
 sudo service apache2 stop
 
 db=$(aws ssm get-parameter --name b2group3_db --output text --query Parameter.Value)
